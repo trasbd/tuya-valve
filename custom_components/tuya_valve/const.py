@@ -4,7 +4,7 @@ DOMAIN = "tuya_valve"
 
 CONF_BASE_URL = "base_url"
 CONF_CLIENT_ID = "client_id"
-CONF_CLIENT_SECRET = "client_secret"
+CONF_CLIENT_SECRET = "client_secret"  # noqa: S105
 CONF_DEVICE_ID = "device_id"
 CONF_NAME = "name"
 
