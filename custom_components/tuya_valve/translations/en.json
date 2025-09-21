@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tuya Valve (Cloud)",
+        "description": "Enter your Tuya Cloud credentials (from Tuya IoT Console) and the device ID of the valve.",
+        "data": {
+          "base_url": "Base URL (e.g. https://openapi.tuyaus.com)",
+          "client_id": "Access ID",
+          "client_secret": "Access Secret",
+          "device_id": "Device ID",
+          "name": "Entity Name"
+        }
+      }
+    },
+    "error": {
+      "auth_failed": "Login failed or device not reachable. Check Access ID/Secret, Base URL, and Device ID."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Tuya Valve Options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    }
+  }
+}
