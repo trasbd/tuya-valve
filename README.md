@@ -123,18 +123,10 @@ Link your mobile app account under **Cloud → Projects → Link Tuya App Accoun
 
 ---
 
-## Security
-
-- **Never commit** your Access Secret / Device ID. Use HA **secrets.yaml** or the UI config flow.  
-- If you accidentally published secrets, **rotate them** in the Tuya IoT Console and clean your Git history (e.g., with `git filter-repo`).
-
----
-
 ## Limitations
 
 - Cloud-only; latency and rate limits apply. If you need LAN/local control, use a local integration or device that exposes local DP codes.
 - Tested with specific Tuya water valves that report the raw properties listed above; other models may require code tweaks.
-- Icons/logo: HA shows vendor icons only when the integration is listed in the official Brands repo.
 
 ---
 
